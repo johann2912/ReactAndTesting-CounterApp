@@ -1,6 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import { FirstApp } from '../src/FirstApp';
 
+/**
+ * test refactorize for reading easy
+ */
 describe('Test in <FirstApp />', () => {
 
     const title = 'Hola, Soy Goku';
