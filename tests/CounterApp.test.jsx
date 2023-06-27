@@ -1,6 +1,9 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { CounterApp } from '../src/CounterApp';
 
+/**
+ * simulate event one click with fireEvent
+ */
 describe('Test <CounterApp />', () => {
 
     const initialValue = 23;
